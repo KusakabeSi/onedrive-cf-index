@@ -1,11 +1,12 @@
-name = "drive"
+name = "cfod"
 type = "webpack"
 workers_dev = true
-account_id = "b87997a496f985b46b927b3f24c61de1"
-zone_id = "b04152d2c33ff4653cec1a579be6d42a"
+account_id = "7ff7c0fe25600300189f98f5a4a531ec"
+zone_id = "860168e336dbe7aa227778b3241d053a"
 kv_namespaces = [
-    { binding = "BUCKET", preview_id = "55b0fc4e288a465fb225421f2af5d445", id = "09b0cf433f394b309d35d1ff3bd0bf39" }
+    { binding = "BUCKET", preview_id = "b849d2206ede4fda96f4251796aacc3a", id = "2e83c12361604320954c52e79a3a9348" }
 ]
+
 
 [env.staging]
 name = "drive-staging"

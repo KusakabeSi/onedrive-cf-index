@@ -21,8 +21,8 @@ const config = {
    * You can use this tool http://heymind.github.io/tools/microsoft-graph-api-auth
    * to get following params: client_id, client_secret, refresh_token & redirect_uri.
    */
-  refresh_token: REFRESH_TOKEN,
-  client_id: '6600e358-9328-4050-af82-0af9cdde796b',
+  refresh_token: REFRESH_TOKEN_P1 + REFRESH_TOKEN_P2,
+  client_id: 'bb4284bc-04eb-4b41-863e-58c539379a3d',
   client_secret: CLIENT_SECRET,
   redirect_uri: 'https://heymind.github.io/tools/microsoft-graph-api-auth',
 
